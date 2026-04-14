@@ -7,7 +7,7 @@ from datetime import datetime
 app = Flask(__name__)
 CORS(app)
 
-CSV_FILE = "./respostas.csv"
+CSV_FILE = "/data/respostas.csv"
 HEADERS = [
     "timestamp",
     "1_disciplina", "1_professor", "1_periodo",
