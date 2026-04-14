@@ -1,9 +1,9 @@
-# fly.toml app configuration file generated for backendpy-6fnvyw on 2026-04-14T00:27:57Z
+# fly.toml app configuration file generated for backendpy-o7ltpq on 2026-04-14T00:31:29Z
 #
 # See https://fly.io/docs/reference/configuration/ for information about how to use this file.
 #
 
-app = 'backendpy-6fnvyw'
+app = 'backendpy-o7ltpq'
 primary_region = 'ams'
 
 [build]
@@ -21,7 +21,3 @@ primary_region = 'ams'
   cpu_kind = 'shared'
   cpus = 1
   memory_mb = 256
-  
-[mounts]
-  source="data"
-  destination="/data"
